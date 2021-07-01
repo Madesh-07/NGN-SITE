@@ -1,0 +1,51 @@
+.header{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+.navbars ul li{
+    margin-top:-40px;
+    position:relative;
+}
+.navbars ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+.navbars ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    margin-left:40px;
+    background:rgb(0, 238, 255);
+    position:absolute;
+    transition:0.4s;
+    left:1px;
+    bottom:-2px;
+}
+.navbars ul li:hover::after{
+    width:45%;
+}
+.welcome h1{
+    margin-top:250px;
+}
+.welcome button{
+    background-color:transparent;
+    color:white;
+}
+.welcome button:hover{
+    color:black;
+    background-color: rgb(30, 224, 215);
+}
+.staff{
+    width:15%;
+}
+.staff1 .img{
+    height:5cm;
+}
